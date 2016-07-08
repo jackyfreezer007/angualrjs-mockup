@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)file:///Users/zeaz/Desktop/selfhelp_files/selfhelp.htm -->
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<link rel="icon" href="http://10.225.1.238/esupport/images/favicon.ico">
+	<title>eSupport</title>
+	<link href="./selfhelp_files/bootstrap.css" rel="stylesheet">
+	<link href="./selfhelp_files/bootstrap-theme.css" rel="stylesheet">
+	<link href="./selfhelp_files/jquery-ui.css" rel="stylesheet">
+	<link href="./selfhelp_files/esupport.css" rel="stylesheet">
+	<link href="./selfhelp_files/jquery.treegrid.css" rel="stylesheet">
+	<link href="./selfhelp_files/cisco-fonts.css" rel="stylesheet">
+	<link href="./selfhelp_files/search_results.css" rel="stylesheet"></head>
+
+<body  ng-app="myApp" ng-controller="myCtrl">
+	<div id="header" class="hidden-print">
+		<div></div>
+	</div>
+	<div class="navbar navbar-fixed-top esupport-header hidden-print" role="navigation">
+		<div id="headerceil" class="esupport-ceilbar">
+			<div class="container"></div>
+		</div>
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand brand-img" href="http://10.225.1.238/esupport/index.html">
+					<img src="./selfhelp_files/logo_ciscowebex_184x36.png" style="width: 167.25px; height:31.25px;"></a>
+			</div>
+			<div id="navlink" class="navbar-collapse collapse in">
+
+				<div id="placeholder_headersearchbar"></div>
+			</div>
+
+		</div>
+	</div>
+
+	<div id="mainBody" class="hidden-print">
+		<div class="searchResultBlock"></div>
+		<div id="searchResultBar" class="container">
+			<div class="searchResultLab" style="">Knowledge Key</div>
+			<div class="row searchinput-block">
+			<form role="form" ng-submit="myFunc()">
+				 <div class="form-group">
+				  <div  >
+                            <input type="text" class="from-control col-md-10 " id="keyword" placeholder="请输入关键词"  ng-model="mySearch"/>
+                                <div>
+                                	<button type="submit" class="btn btn-default col-md-2">Search</button>
+                                </div>
+                            </div>
+                        </div>
+		</from>
+			<div style="height:96px"></div>
+		
+		</div>
+	</div>
+	<div>
+		<ul>
+			<li ng-repeat="x in message">{{ x.Name + ', ' + x.Website }}</li>
+		</ul>
+	</div>
+
+	<div class="navbar navbar-bottom hidden-print" id="copyright" role="navigation" style="margin-bottom: 0px;background-color:#CCC;height:125px">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10">
+					<p>©2016 Cisco and/or its affiliates. All rights reserved.</p>
+				</div>
+				<div class="col-md-10 text-right">
+					<a href="http://www.cisco.com/" target="_blank">
+						<img src="./selfhelp_files/logo_cisco_81x43.png"></a>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div id="printableBody" class="visible-print-block"></div>
+
+	<!-- Bootstrap core JavaScript
+================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+
+	<script type="text/javascript" src="./selfhelp_files/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="./selfhelp_files/jquery.cookie.js"></script>
+	<script type="text/javascript" src="./selfhelp_files/jquery.treegrid.js"></script>
+	<script type="text/javascript" src="./selfhelp_files/jquery.treegrid.bootstrap3.js"></script>
+	<script type="text/javascript" src="./selfhelp_files/jquery-ui.js"></script>
+	<script type="text/javascript" src="./selfhelp_files/underscore-min.js"></script>
+	<script type="text/javascript" src="./selfhelp_files/BrightcoveExperiences.js"></script>
+	<script type="text/javascript" src="./selfhelp_files/juicer-min.js"></script>
+	<script type="text/javascript" src="./selfhelp_files/juicer-esupport.js"></script>
+	<script type="text/javascript" src="./selfhelp_files/backbone-min.js"></script>
+	<script type="text/javascript" src="./selfhelp_files/bootstrap.js"></script>
+	<script type="text/javascript" src="./selfhelp_files/esupport.js"></script>
+	<script type="text/javascript" src="./selfhelp_files/esupportmvc_index.min.js"></script>
+
+	<script type="text/javascript" src="./selfhelp_files/index.js"></script>
+	<script src="js/angular-1.3.0.js"></script>
+	<script src="js/control.js"></script>
+
+</body>
+</html>

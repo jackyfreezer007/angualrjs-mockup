@@ -1,0 +1,1102 @@
+/*Following settings use for temporary fixed layout, we need to remove these later*/
+
+
+@media (min-width: 768px) {
+    .search_bar input {
+        width: 640px;
+    }
+    .container {
+        width: 1024px;
+    }
+}
+
+@media (max-width: 768px) {
+    .search_bar input {
+        width: 100%;
+    }
+}
+
+/*#listdiv, #listdiv > div {
+         display: inline-flex;
+         }*/
+
+
+/*fixed layout*/
+
+
+body {
+    padding-top: 109px;
+}
+
+#maincontainer {
+    margin-top: -447px;
+}
+
+.esupport-header {
+    height: 108px;
+    border-bottom: 1px solid #666666;
+    background-color: #FFFFFF;
+    margin-bottom: 0px;
+}
+
+.esupport-headerlayout{
+    width:100%;
+    height: 88px;
+}
+
+.esupport-ceilbar{
+    height: 27px;
+    background-color:#5690a8
+}
+
+.esupport-ceilcontent{
+    float:right;
+    margin-right: 12px;
+}
+
+.webexceillink{
+    color:#FFFFFF;
+    font-size: 14px;
+    font-family: arial regular;
+    position: relative;
+    top: 3px;
+}
+
+.esupport-header-navbar{
+    height: 88px;
+
+}
+
+.brand-img{
+     padding:0px;
+     margin-top:24px;
+ }
+
+
+/*header link*/
+/*#navbar .nav > li > a {
+position: relative;
+display: block;
+padding: 0px;
+padding-bottom: 16px;
+}
+
+#navlink .nav {
+    margin-left: 91px;
+    margin-top: 24px;
+    margin-right: 77px;
+}
+
+#mainheader .navbar{
+    margin-bottom:0;
+}
+
+#navlink.in .nav > li {
+    display: block;
+}
+
+
+#navlink:not(.in) .nav > li {
+    display: inline-block;
+}
+
+
+#navlink .nav > li {
+    float: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+    margin-left: 65px !important;
+    font-family:CiscoSansRegular;
+}
+
+#navlink .nav > li> a {
+    color: #000000;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#navlink .nav > li> a:hover {
+    background-color:initial;
+    color: #3ca3cc;
+}
+
+#navlink .nav > li > a:focus {
+  background-color: initial;
+}
+
+#navlink .nav > li:first-child{
+  margin-left:0px !important;
+}*/
+
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    background-image: none;
+    background-repeat: none;
+    border-radius: none;
+    box-shadow: none;
+}
+
+.navbar .navbar-default{
+    margin-bottom: 0px;
+    border-width: 0px;
+}
+
+.navbar-toggle {
+    margin-right: 50px;
+    margin-top: 22px;
+}
+
+#navbar .navbar-nav{
+    margin-left: 91px;
+    margin-right: 77px;
+    margin-top: 24px;
+}
+
+#navbar .nav > li {
+    color: #000000;
+    font-family: CiscoSansRegular;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left:30px;
+    width:130px;
+    text-align:center;
+}
+
+#navbar .nav > li > a {
+    color: #000000;
+}
+
+#navbar .nav > li> a:hover {
+    background-color:initial;
+    color: #3ca3cc;
+}
+
+#navbar .nav > li > a:focus {
+    background-color: initial;
+    outline:  none;
+}
+
+.productblock{
+    height: 447px;
+    background: #e2f2f8;
+    background: -moz-linear-gradient(100% 100% 90deg, #e2f2f8, #FFFFFF);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#e2f2f8));
+    background: -o-linear-gradient(top, #FFFFFF 0%, #e2f2f8 100%);
+    filter: progid:DXImageTransform.Microsoft.Gradient(gradientType=0, startColorStr=#FFFFFF, endColorStr=#e2f2f8);
+    background: -ms-linear-gradient(top, #FFFFFF, #e2f2f8);
+    border-bottom: 1px solid #DDD;
+}
+
+.search-label {
+    margin-top:65px;
+    font-size: 40px;
+    color: #333;
+    padding:0px;
+    height: 38px;
+    font-family:CiscoSansExtraLight;
+}
+
+.searchinput-block {
+    margin-top:23px;
+    padding:0px;
+}
+/*for search input enhancement*/
+.search_bar .form-control {
+    box-shadow:none;
+    -webkit-box-shadow:none;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.search_bar .form-control:focus {
+ box-shadow:none;
+ -webkit-box-shadow:none;
+ border: 0px;
+}
+
+.searchinput-block table
+{
+    border: 2px solid #3C7088;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-collapse: separate;
+}
+
+.searchinput-block table:focus
+{
+    border: 2px solid rgba(0,0,0,0.2);
+}
+
+
+.search_bar input {
+    min-width: 33px;
+    border: 0px;
+    vertical-align: top;
+    border-right: 0;
+    text-indent: 16px;
+    font-size: 22px;
+    color: #3c7088;
+    height:48px;
+    padding:0px;
+    font-family:CiscoSansExtraLight
+}
+
+/*placeholder text style*/
+.search_bar input::-webkit-input-placeholder {
+   color: #3c7088;
+}
+
+.search_bar input:-moz-placeholder { /* Firefox 18- */
+   color: #3c7088;
+}
+
+.search_bar input::-moz-placeholder {  /* Firefox 19+ */
+   color: #3c7088;
+}
+
+.search_bar input:-ms-input-placeholder {
+   color: #3c7088;
+}
+
+.search_btn a {
+    width: 60px;
+    height: 48px;
+    background: #fff url(images/icon_magnifying_glass_32x36.png) no-repeat;
+    background-position: center center;
+    border-left: none;
+    display: block;
+    text-indent: -99999em;
+    border-radius: 0 5px 5px 0;
+}
+
+.label_block_videofaq {
+height: 37px;
+margin-top: 65px;}
+
+
+.producttypeslide
+{
+  margin-top:63px;
+}
+
+.product_label {
+    margin-top:65px;
+    font-size: 40px;
+    color: #333;
+    padding:0px;
+    height: 38px;
+    font-family:CiscoSansExtraLight;
+}
+
+.producttypeslide ul  li
+{
+      margin-left:0px;
+}
+
+
+.producttypeblock{
+    width:220px;
+    height:210px;
+    background-color:#3ca3cc;
+    text-align: center;
+   /* margin: 0 10px 0 10px; */
+}
+
+.producttypeblock:hover{
+    background-color:#3c7088;
+}
+
+.producttypeblock-active
+{
+    background-color:#3c7088;
+}
+
+
+/*.producttypeslide > div:hover{background-color:#3C7088;}   */
+
+
+.producttypeblock >img
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    height:92px;
+}
+
+.producttypeblock .producttext   {
+    margin-top: 31px;
+    color: #FFFFFF;
+    font-size: 19px;
+    font-family:CiscoSansExtraLight;
+}
+
+.producttypeblock .productlink  {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: CiscoSansRegular;
+}
+
+.producttypeblock .productlink a {
+    color: #FFFFFF;
+}
+
+.producttypeblock .productlink a:hover {
+    color: #FFFFFF;
+}
+
+#productcontainer .carousel ul {
+    /*width:20000em;*/
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#productcontainer .carousel ul li {
+    float:left;
+    margin-left:40px;
+}
+#productcontainer .carousel ul li:first-child {
+    margin-left:0px;
+}
+
+.smallplay {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(images/sprite_icon_play_small_18x36.png) ;
+    float:left;
+    margin-top:4px
+}
+
+
+
+.searchResultBlock{
+    height: 243px;
+    background: #e2f2f8;
+    background: -moz-linear-gradient(100% 100% 90deg, #e2f2f8, #FFFFFF);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#e2f2f8));
+    background: -o-linear-gradient(top, #FFFFFF 0%, #e2f2f8 100%);
+    filter: progid:DXImageTransform.Microsoft.Gradient(gradientType=0, startColorStr=#FFFFFF, endColorStr=#e2f2f8);
+    background: -ms-linear-gradient(top, #FFFFFF, #e2f2f8);
+    border-bottom: 1px solid #DDD;
+}
+
+#searchResultBar{
+    margin-top: -243px;
+}
+
+.searchResultLab {
+    margin-top:61px;
+    font-size: 40px;
+    color: #000000;
+    padding:0px;
+}
+
+.contactlink{
+    list-style: none;
+    font-size: 20px;
+    text-align: left;
+    padding: 0px;
+    line-height: 26px;
+    color: #3C7088;
+    font-family: ciscoSansExtralight;
+}
+
+.contacttext{
+    font-family: CiscoSansExtraLight;
+    font-size:18px;
+    line-height:26px;
+    color:#555;
+}
+
+#kbSearchBarPlaceholder {
+    height: 109px;
+    margin-top: 65px;
+}
+p.listdiv-title {
+    margin-top: 65px;
+    margin-bottom: 32px;
+    font-family: CiscoSansRegular,Arial;
+    font-size: 36px;
+    color: #555;
+}
+p.playedvideo-text {
+    margin-top: 28px;
+    margin-bottom: 48px;
+    font-family: CiscoSansRegular,Arial;
+    font-size: 20px;
+    line-height: 28px;
+    color: #333;
+}
+p.featuredvideo-tile {
+    margin-bottom: 26px;
+    font-family: CiscoSansRegular,Arial;
+    font-size: 22px;
+    line-height: 28px;
+    color: #333;
+}
+li.featuredvideo-text {
+    margin-bottom: 20px;
+    font-family: CiscoSansExtraLight,Arial;
+    font-size: 18px;
+    line-height: 24px;
+    color: #555;
+}
+
+.featuredvideo-text a:hover span{
+    background-position: 0 18px;
+}
+
+li.topfaq-text {
+    margin-bottom: 32px;
+    font-family: CiscoSansExtraLight,Arial;
+    font-size: 18px;
+    line-height: 30px;
+    color: #555;
+}
+.viewalldiv {
+    margin-top: 24px;
+    margin-bottom: 80px;
+}
+.viewallline {
+    border-top: 1px solid #ccc;
+    width: 138px;
+}
+.viewalldiv p {
+    margin-bottom: 0;
+    font-family: CiscoSansExtraLight,Arial;
+    font-size: 18px;
+    line-height: 45px;
+}
+.quicklinksdiv {
+    padding-top: 49px;
+    margin-bottom: 0;
+    color: inherit;
+    background-color: #f2f2f2;
+    height: 266px;
+    text-align: center;
+}
+.quicklinksdiv > p.quicklinks-title {
+    margin-bottom: 20px;
+    font-family: CiscoSansRegular,Arial;
+    font-size: 30px;
+    color: #555;
+}
+.quicklinksdiv > p {
+    margin-bottom: 10px;
+    font-family: CiscoSansExtraLight,Arial;
+    font-size: 18px;
+    line-height: 24px;
+}
+.contactdiv {
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom:172px;
+}
+.contactdiv p:first-child {
+    font-family: CiscoSansExtraLight,Arial;
+    font-size: 22px;
+    color: #555;
+}
+.contactcollapselink {
+    font-family: CiscoSansRegular,Arial;
+    font-size: 22px;
+}
+a {
+    color: #007fc5;
+}
+a:hover {
+    color: #00a5ff;
+    text-decoration: none;
+}
+#listdiv a {
+    text-decoration: none;
+}
+
+#listdiv a:hover {
+    color: #00a5ff;
+    text-decoration: none;
+}
+
+#copyright p {
+    margin-top: 56px;
+    font-family: CiscoSansExtraLight,Arial;
+    font-size: 16px;
+    color: #333;
+}
+#copyright img {
+    margin-top: 41px;
+}
+
+.list-current-page{
+    font-family:Arial Regular;
+    font-size:20px;
+    color:#FFF;
+    background: none repeat scroll 0 0 #64C000;
+    text-shadow: 0 0 0;
+    font-weight: bold;
+    padding: 2px 6px;
+}
+
+.list-current-page:hover{
+    color:#63ACC9;
+}
+
+.list-page:hover{
+    color:#63ACC9;
+}
+
+.list-page{
+    font-family:Arial Regular;
+    font-size:20px;
+    color:#007FC5;
+    padding: 2px 8px;
+    cursor: pointer;
+}
+
+.text-view-all{
+    font-family:Arial Regular;
+    font-size:20px;
+    color:#007FC5;
+}
+
+.separator{
+    border-left: 1px solid #999;
+    margin-right:25px;
+    margin-left:17px;
+}
+
+#shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 900;
+    background-image: url(images/shade1x1.png);
+}
+
+.searchinputblock_header{
+  float: right;
+}
+
+.search_header_bar input {
+    min-width: 33px;
+    border: 0px;
+    vertical-align: top;
+    border-right: 0;
+    text-indent: 10px;
+    font-size: 16.5px;
+    color: #3c7088;
+    height:30px;
+    width: 240px;
+    padding:0px;
+    font-family:CiscoSansExtraLight
+}
+
+
+
+.search-header-btn a {
+    width: 35px;
+    height: 34px;
+    background: #fff url(images/icon_magnifying_glass_26x28.png) no-repeat;
+    background-position: center center;
+    border-left: none;
+    display: block;
+    text-indent: -99999em;
+    border-radius: 0 5px 5px 0;
+}
+
+
+.producttype-carousel{
+margin-bottom: 72px;
+}
+
+.producttype-carousel .producttypeblock
+{
+   cursor: pointer;
+}
+
+.producttypeblock .videoprocut_text {
+margin-top: 24px;
+color: #FFFFFF;
+font-size: 21px;
+font-family: CiscoSansExtraLight;
+line-height: 24px;}
+
+
+.producttype-carousel .carousel-control{
+    width: 40px;
+}
+
+.producttype-carousel .productleft {
+    margin-left:-63px;
+    display:none;
+}
+
+.producttype-carousel .productright {
+    left:auto;
+    display:none;
+}
+
+
+
+.carouselleft
+{
+       background: url(images/icon_nav_left_40x120.png) no-repeat;
+       background-position: center center;
+       height: 40px;
+       width: 40px;
+       display: inline-block;
+       margin-top: 85px;
+}
+
+.carouselright
+{
+        background: url(images/icon_nav_right_40x120.png) no-repeat;
+        background-position: center center;
+        height: 40px;
+        width: 40px;
+        display: inline-block;
+        margin-left: 23px;
+        margin-top: 85px;
+
+}
+
+.placeholder-videotopic a, .placeholder-faqtopic a{
+    color: #333;
+}
+
+p.videotopic-title {
+    font-family: CiscoSansRegular;
+    line-height:27px;
+    color:#3C7088;
+    font-size:21px;
+}
+
+.list-videotopic, .list-faqtopic{
+    margin-top:26px;
+}
+
+.list-videotopic > .list-unstyled >.label-topic,
+.list-faqtopic > .list-unstyled >.label-topic{
+    font-family: CiscoSansExtraLight;
+    font-size: 18px;
+    line-height:26px;
+    color:#333;
+    margin-top:20px;
+    border-left: 3px solid #FFFFFF;
+    padding-left: 10px;
+    margin-left: -13px;
+}
+
+.list-videotopic > .list-unstyled > .label-topic:hover,
+.list-faqtopic > .list-unstyled > .label-topic:hover{
+    border-left: 3px solid #3ca3cc;
+    font-family:CiscoSans ExtraLight
+    color:#00A5FF;
+}
+
+
+
+.list-videotopic > .list-unstyled > .active,
+.list-faqtopic > .list-unstyled > .active{
+    border-left: 3px solid #3ca3cc;
+    font-family:CiscoSansRegular,Arial
+    font-size:18px;
+    font-weight:bold;
+    line-height:26px;
+    color:#333;
+}
+
+.listvideo-title {
+    font-family: CiscoSansExtralight,Arial;
+    font-size: 30px;
+    color: #000;
+    margin-bottom:0px;
+    padding-left:20px;
+}
+
+.listvideo-title > span {
+    margin-bottom:0px;
+    font-size:16px;
+    font-family: CiscoSansRegular,Arial;
+    color :#333;
+}
+
+.icon-bigplay{
+    position:absolute;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    background-image: url(images/sprite_icon_play_large_transparent_45x90.png);
+    margin-top: 5px;
+}
+
+.text-videocontent
+{
+    margin-left: 65px;
+    font-family: CiscoSansExtraLight;
+    font-size:20px;
+    line-height: 28px;
+}
+
+.link-videotopic {
+    font-family:CiscoSansRegular;
+    font-size:20px;
+    color:#333;
+    margin-right:22px;
+}
+
+.text-videocontent p{
+    margin-bottom:0px;
+}
+
+.text-videocontent p:nth-child(2){
+    margin-top:16px;
+}
+
+.div-videosection{
+    margin-top:40px;
+}
+
+.div-videosection .row{
+    margin-top:10px;
+    padding:20px;
+}
+
+.div-videosection .row:first-child{
+    margin-top:0px;
+}
+
+.paginationblock-video{
+    margin-top:50px;
+    float:right;
+    display:inline;
+}
+
+.pagination-video{
+    display: inline-block;
+    padding-left: 0;
+    list-style: none;
+}
+
+.pagination-video li {
+    display:inline;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 16px;
+    font-family: Arial;
+    font-size:20px;
+    color:#007fc5;
+}
+
+.pagination-video li:last-child {
+    margin-left: 25px;
+    padding-left:25px;
+    border-left: 1px solid #999;
+}
+
+.pagination-video li a:  {
+    margin-left: 25px;
+    padding-left:25px;
+    border-left: 1px solid #999;
+}
+
+.videodiv {
+    margin-top: 32px;
+    width: 940px;
+    height: 530px;
+}
+
+#videoplayer {
+    position: relative;
+    width: 940px;
+    height: 530px;
+    z-index: 901;
+}
+        
+.maskplayer {
+    position: relative;
+    width: 940px;
+    height: 530px;
+    top: -530px;
+    z-index: -1;
+}
+    
+.videodesc {
+    margin-top: 25px;
+    width: 940px;
+    height: 114px;
+}
+        
+.videodesc > p {
+    margin: 0;
+    font-family: CiscoSansExtraLight,Arial;
+    font-size: 22px;
+    line-height: 30px;
+    color: #333;
+}
+        
+.videodesc span {
+    font-family: CiscoSansRegular,Arial;
+}
+
+.playbtn {
+    position: absolute;
+    top: 200px;
+    left: 405px;
+    width: 131px;
+    height: 131px;
+    background: url(images/icon_video_play_131x131.png) no-repeat;
+    background-position: center;    
+}
+
+.opacity {
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+    background-color: #000;
+}
+
+.productbarblock {
+    height: 60px;
+    border-bottom: 1px solid #CCC;
+}
+
+#productbar {
+    padding-top: 15px;
+}
+
+#productbar > a {
+    font-family: CiscoSansRegular,Arial;
+    font-size: 21px;
+    line-height: 30px;
+    color: #333;
+    text-decoration: none;
+}
+
+.collapseproduct {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.smallproducttypeblock {
+    width: 189px;
+    height: 180px;
+    background-color: #3ca3cc;
+    text-align: center;
+}
+
+.smallproducttypeblock > img {
+    margin-top: 28px;
+}
+
+.smallproducttypetext {
+    font-family: CiscoSansExtraLight,Arial;
+    font-size: 21px;
+    line-height: 24px;
+    color: #FFF;
+}
+
+.smallproductdiv {
+    margin-top: 32px;
+}
+
+.icon-bigplay:hover{
+    background-position: 0 45px;
+}
+
+#placeholder_faqlist {
+    padding: 0 20px;
+    width: 100%;
+}
+
+#placeholder_faqlist p {
+    margin: 0;
+}
+
+.listfaq-title {
+    font-family: CiscoSansExtraLight,Arial;
+    font-size: 30px;
+    line-height: 37px;
+    color: #000;
+}
+
+.listfaq-title > span {
+    font-family: CiscoSansRegular,Arial;
+    font-size: 16px;
+    color: #333;
+}
+
+#faqshare span, #faqshare a {
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    vertical-align: top;
+    margin-left: 15px;
+    font-family: CiscoSansRegular,Arial;
+    font-size: 16px;
+    color: #333;
+}
+
+#faqshare .faq-share {
+    background: url(images/icon_share_22x242.png) no-repeat;
+    width: 22px;
+    height: 24px;
+    cursor: pointer;
+}
+
+#faqshare .faq-print {
+    background: url(images/icon_print_25x22.png) no-repeat;
+    width: 25px;
+    height: 22px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+#faqshare hr {
+    position: absolute;
+    right: 0;
+    margin-top: 9px;
+    border-top: 1px dotted #555;
+    width: 120px;
+}
+
+#placeholder_faqlist .box-share {
+    background-color: #eee;
+    border-radius: 3px;
+    position: absolute;
+    top: -15px;
+    right: 0;
+    padding: 15px;
+    display: none;
+    font-family: "Arial";
+    color: #333;
+    font-weight: bold;
+}
+
+#placeholder_faqlist .box-share p {
+    padding-bottom: 3px;
+    color: #333;
+}
+
+#placeholder_faqlist .box-share input[type=text] {
+    border: none;
+    padding: 5px;
+    color: #333;
+    width: 287px;
+}
+
+#placeholder_faqlist .box-share a.box-close {
+    background: url(images/icon_close_22x22.png) no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+
+.faq-group {
+    margin-top: 40px;
+}
+
+#placeholder_faqlist .panel {
+    background-color: #ffffff;
+    border: 0 solid transparent;
+    border-radius: 0;
+    -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.05);
+}
+
+#placeholder_faqlist .panel-group .panel {
+  margin-bottom: 42px;
+  border-radius: 0;
+}
+
+.faqpanel-title, .faq-body {
+    font-family: CiscoSansExtraLight,Arial;
+    font-size: 20px;
+    line-height: 28px;
+    color: #555;
+}
+
+.faq-body {
+    margin-top: 32px;
+    padding-left: 70px;
+}
+
+.faq-pdf span {
+    font-family: CiscoSansRegular,Arail;
+    font-size: 20px;
+    color: #333;
+}
+
+.faq-graphic {
+    margin-top: 25px;
+}
+
+.faq-graphic img {
+    max-width: 580px;
+}
+
+#placeholder_faqlist .faq-pdf {
+    margin-top: 16px;
+}
+
+.print-header .close{
+    margin-top: -10px;
+    margin-right: -10px;
+    margin-left: 20px;
+}
+
+.print-header h1{
+    position: absolute;
+    font-weight: bold;
+}
+.print-header #btn-print-faq {
+    width: 80px;
+    height: 40px;
+    display: inline-block;
+    background-color: #3CA3CC;
+    color: #FFF;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    line-height: normal;
+    border: white;
+}
+.print-header .print-btn-div {
+    text-align: right;
+    margin-top: 5px;
+}
+
+.print-body {
+    font-size: 16px;
+    height: 670px;
+    overflow: auto;
+}
+
+.print-body h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.print-body h4 {
+    font-size: 16px;
+    padding: 20px 0;
+    font-weight: bold;
+}
+
+@media print
+{
+    .print-header h1{
+        position: static;
+    }
+    .print-body {
+        height: auto
+    }
+}
